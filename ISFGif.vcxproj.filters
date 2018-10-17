@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGifEncoder\src\ofxGifEncoder.cpp">
+			<Filter>addons\ofxGifEncoder\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxISF\libs\jsonxx\jsonxx.cc">
+			<Filter>addons\ofxISF\libs\jsonxx</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGifEncoder">
+			<UniqueIdentifier>{B53998DC-FEC5-3374-E87B-ED60}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGifEncoder\src">
+			<UniqueIdentifier>{BACC6C90-4215-5125-029E-5D29}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxISF">
+			<UniqueIdentifier>{C0351F5E-1C50-EA98-C7D8-FC4C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxISF\src">
+			<UniqueIdentifier>{5AE7DDEF-7448-56EB-2A7A-B401}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxISF\src\ofxISF">
+			<UniqueIdentifier>{9162FFBE-D339-3994-9863-6B4B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxISF\libs">
+			<UniqueIdentifier>{A08AE423-FCEC-C1CB-F8CB-F42C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxISF\libs\jsonxx">
+			<UniqueIdentifier>{B053AF9B-49E6-47AD-2C8C-BCF6}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGifEncoder\src\ofxGifDitherTypes.h">
+			<Filter>addons\ofxGifEncoder\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGifEncoder\src\ofxGifEncoder.h">
+			<Filter>addons\ofxGifEncoder\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxISF\src\ofxISF\Chain.h">
+			<Filter>addons\ofxISF\src\ofxISF</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxISF\src\ofxISF\CodeGenerater.h">
+			<Filter>addons\ofxISF\src\ofxISF</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxISF\src\ofxISF\Constants.h">
+			<Filter>addons\ofxISF\src\ofxISF</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxISF\src\ofxISF\Shader.h">
+			<Filter>addons\ofxISF\src\ofxISF</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxISF\src\ofxISF\Uniforms.h">
+			<Filter>addons\ofxISF\src\ofxISF</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxISF\src\ofxISF.h">
+			<Filter>addons\ofxISF\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxISF\libs\jsonxx\jsonxx.h">
+			<Filter>addons\ofxISF\libs\jsonxx</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
