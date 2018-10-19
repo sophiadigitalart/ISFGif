@@ -55,7 +55,9 @@ void ofApp::captureFrame() {
 	//gifEncoder.addFrame(fbo.)
 	ofTexture * tx = new ofTexture();
 	tx->allocate(frameW, frameH, GL_RGB);
-	tx->loadData(vid.getPixels(), GL_RGB);//, frameW, frameH
+	// tx->loadData(vid.getPixels(), GL_RGB);
+	// nope! tx = &rgbaFbo.getTextureReference();
+	tx->loadData(fboPixels, GL_RGB);
 	txs.push_back(tx);
 
 	nFrames++;
