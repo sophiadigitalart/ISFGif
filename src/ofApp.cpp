@@ -76,7 +76,7 @@ void ofApp::draw() {
 	ofClear(0, 0, 0, 1);
 	chain.draw(0, 0);
 	rgbaFbo.end();
-	rgbaFbo.draw(460, 200);
+	rgbaFbo.draw(0, 200);
 	for (int i = 0; i < nFrames; i++) {
 		txs[i]->draw(i* (frameW / 2 + 5), frameH, frameW / 2, frameH / 2);
 	}
