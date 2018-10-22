@@ -57,6 +57,7 @@ void ofApp::captureFrame() {
 	tx->allocate(frameW, frameH, GL_RGB);
 	// tx->loadData(vid.getPixels(), GL_RGB);
 	// nope! tx = &rgbaFbo.getTextureReference();
+
 	tx->loadData(fboPixels, GL_RGB);
 	txs.push_back(tx);
 
